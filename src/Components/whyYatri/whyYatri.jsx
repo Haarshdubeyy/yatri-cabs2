@@ -1,6 +1,6 @@
 
 import { Flag, Users, Smartphone, DollarSign } from 'lucide-react'
-import './WhyYatri.css'
+import  './whyYatri.css'
 
 const WhyYatri = () => {
   const features = [
