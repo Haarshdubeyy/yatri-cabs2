@@ -39,7 +39,7 @@ body {
 }
 
 .hero {
-  background-image: ('/src/assets/pexels-bri-schneiter-28802-346529.jpg');
+  background-image: ('/public/pexels-bri-schneiter-28802-346529.jpg');
   background-size: cover;
   background-position: center;
   min-height: 600px;

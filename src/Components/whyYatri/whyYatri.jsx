@@ -31,7 +31,7 @@ const WhyYatri = () => {
       <h2>WHY <span className="highlight">YATRI</span> ?</h2>
       <div className="features-container">
         <div className="car-image">
-          <img src="/src/assets/dzire.jpg" alt="Yatri Car with Customers" />
+          <img src="/src/assets/dzire.jpg" alt="Yatri Car" />
         </div>
         <div className="features-list">
           {features.map((feature, index) => (
