@@ -1,0 +1,115 @@
+.one-way-journey {
+  padding: 4rem 2rem;
+  background-color: white;
+}
+
+.journey-header {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.journey-header h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.journey-header p {
+  color: #666;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.benefits-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.benefit-card {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.benefit-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefit-card li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.benefit-card li:before {
+  content: "•";
+  color: #1b5e20;
+  position: absolute;
+  left: 0;
+}
+
+.journey-footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.journey-footer h3 {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.highlight {
+  color: #1b5e20;
+}
+
+/* Medium Screens (Tablets and Small Laptops) */
+@media (max-width: 768px) {
+  .benefits-container {
+    grid-template-columns: 1fr; /* Stack cards vertically */
+  }
+
+  .journey-header h2 {
+    font-size: 1.75rem; /* Adjust header size */
+  }
+
+  .journey-header p {
+    font-size: 0.95rem; /* Adjust paragraph size */
+  }
+
+  .journey-footer h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Small Screens (Mobile Phones) */
+@media (max-width: 480px) {
+  .one-way-journey {
+    padding: 3rem 1rem; /* Reduce padding */
+  }
+
+  .journey-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .journey-header p {
+    font-size: 0.9rem;
+  }
+
+  .benefit-card {
+    padding: 1.5rem; /* Reduce card padding */
+  }
+
+  .journey-footer h3 {
+    font-size: 1.2rem;
+  }
+}

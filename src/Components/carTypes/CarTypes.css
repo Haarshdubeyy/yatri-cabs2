@@ -1,0 +1,39 @@
+.car-types {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  th {
+    background: #1b5e20;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background: #f9f9f9;
+  }
+  
+  @media (max-width: 768px) {
+    .car-types {
+      overflow-x: auto;
+    }
+    
+    table {
+      min-width: 600px;
+    }
+  }
+  
+  

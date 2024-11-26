@@ -1,0 +1,109 @@
+.why-yatri {
+    padding: 4rem 2rem;
+    background-color: #f5f5f5;
+  }
+  
+  .why-yatri h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+  }
+  
+  .highlight {
+    color: #1b5e20;
+  }
+  
+  .features-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .car-image {
+    flex: 1;
+    max-width: 50%;
+  }
+  
+  .car-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .features-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .feature-item {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+  
+  .feature-icon-wrapper {
+    background: none;
+    padding: 0;
+  }
+  
+  .feature-icon {
+    width: 32px;
+    height: 32px;
+    color: #1b5e20;
+  }
+  
+  .feature-content h3 {
+    color: #1b5e20;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-content p {
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .features-container {
+      flex-direction: column; /* Stack elements vertically */
+      gap: 2rem; /* Reduce gap for smaller screens */
+    }
+  
+    .car-image {
+      max-width: 100%; /* Ensure the image spans full width */
+    }
+  
+    .why-yatri h2 {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .feature-content h3 {
+      font-size: 1rem; /* Slightly smaller headings */
+    }
+  
+    .feature-content p {
+      font-size: 0.9rem; /* Adjust paragraph font size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .why-yatri {
+      padding: 3rem 1rem; /* Reduce padding for very small screens */
+    }
+  
+    .features-container {
+      gap: 1.5rem; /* Narrow the gap further for smaller screens */
+    }
+  
+    .feature-icon {
+      width: 28px;
+      height: 28px; /* Shrink icons for smaller screens */
+    }
+  }
+  

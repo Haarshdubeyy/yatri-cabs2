@@ -1,0 +1,40 @@
+.landscapes {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+}
+
+.landscapes-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.landscapes h2 {
+  text-align: center;
+  color: white;
+  background-color: #245b28;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}
+
+.features-list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.feature-item {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  line-height: 1.6;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .landscapes h2 {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+}
+

@@ -1,0 +1,94 @@
+.app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  color: #333;
+  font-size: 2.5rem;
+}
+
+.header span {
+  color: #1b5e20;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  background-image: ('/src/assets/pexels-bri-schneiter-28802-346529.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  position: relative;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  color: #2eb035;
+}
+
+main {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 20px;
+    min-height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
+
